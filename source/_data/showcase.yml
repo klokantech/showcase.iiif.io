@@ -1,3 +1,12 @@
+- name: OpenSeadragon
+  id: osd
+  img_url: img/showcase/osd.jpg
+  desc:
+  - >
+    An open-source, web-based viewer for zoomable images, implemented in pure JavaScript.
+  github_url: https://github.com/openseadragon/openseadragon
+  url: showcase/osd-viewer.html
+
 - name: Mirador Viewer
   id: mirador
   img_url: img/showcase/mirador.jpg
@@ -5,9 +14,10 @@
   - >
     An open-source, web-based 'multi-up' viewer that supports zoom-pan-rotate
     functionality, ability to display/compare simple images, and images with
-    annotations
+    annotations.
   github_url: https://github.com/IIIF/mirador
   url: showcase/mirador-viewer.html
+
 - name: Loris IIIF Image Server
   id: loris
   img_url: img/showcase/loris.jpg
@@ -17,6 +27,7 @@
     Image API ver 1.1. Loris supports JPEG and TIFF sources as well as JPEG2000.
   github_url: https://github.com/pulibrary/loris
   url: showcase/loris-server.html
+
 - name: Wellcome Player
   id: wellcome
   img_url: /img/showcase/wellcome-player.jpg
@@ -27,6 +38,7 @@
     audio files.
   github_url: https://github.com/wellcomelibrary/player
   url: showcase/wellcome-player.html
+
 - name: Home Fractals
   id: fractals
   img_url: img/showcase/home-fractals.jpg
